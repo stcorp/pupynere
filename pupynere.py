@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from __future__ import division
+from __future__ import absolute_import, division, print_function
 
 u"""
 NetCDF reader/writer module.
@@ -88,6 +88,7 @@ To read the NetCDF file we just created:
 __all__ = ['netcdf_file']
 
 
+from functools import reduce
 from operator import mul
 from mmap import mmap, ACCESS_READ
 try:
