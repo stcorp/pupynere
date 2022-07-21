@@ -4,6 +4,11 @@ Changelog
 1.1
 ---
 
+1.1.1
+~~~~~
+
+- Python 3 compatibility fixes.
+
 1.1.0
 ~~~~~
 

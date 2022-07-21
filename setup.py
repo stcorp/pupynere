@@ -14,7 +14,7 @@ Topic :: Scientific/Engineering
 Topic :: Software Development :: Libraries :: Python Modules
 """
 
-version = '1.1'
+version = '1.1.1'
 
 setup(
         name='pupynere',
@@ -26,6 +26,9 @@ using the same API as Scientific.IO.NetCDF and pynetcdf. It depends only
 on Numpy, so you don't need to have the NetCDF library installed.
 
 Changelog:
+
+1.1.1
+    Python 3 compatibility fixes.
 
 1.1
     Incorporated modifications from scipy.io.netcdf.

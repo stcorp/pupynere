@@ -14,7 +14,7 @@ setup(**setup_meta)
 options(
     setup=Bunch(
         name='Pupynere',
-        version='1.1.0',
+        version='1.1.1',
         description='Pure Python NetCDF reader and writer.',
         long_description='''
 Pupynere is an implementation of the NetCDF library, written from scratch
